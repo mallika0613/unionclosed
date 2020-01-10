@@ -1,12 +1,10 @@
 # unionclosedsets
 
-
-
-```Installation```
+Installation
 
 ​	`python setup.py install`
 
-```Usage : ```
+Usage : 
 
  `is_unionclosed(file) : returns boolean value if the sets in file are union closed`
 
@@ -17,7 +15,7 @@ print(unionclosed.is_unionclosed(filelocation))
 
 ````
 
-`Input file format`
+Input file format
 
 -  Text file with each line respresenting a set
 -  Make sure each element in the set is seperated by comma
@@ -25,6 +23,8 @@ print(unionclosed.is_unionclosed(filelocation))
 - Example file 
 
 `````
+sample.txt:
+
 1,2,3
 1,2
 
